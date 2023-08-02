@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+/* /SET PRIMARY HERE */
+:root {
+    --primary-brand: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31D0AA;
+    --text: #434455;
+    --subtle-text: #8E8F99;
+    --accent: #E7E9FC;
+    --light: #F4F4FD;
+    --modal-overlay: #2E2F42;
+    --hero-background: #2E2F42;
+    --white-background: #FFFFFF;
+    --modal-background: #FCFCFC;
+
+}
+html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+}
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+h3 {
+    font-weight: medium;
+    font-size: 18px;
+    letter-spacing: 2%;
+}
+
+
+.header {
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    width: 100%;
+    align-content: flex-end;
+}
+.nav__link {
+    
+    width: 55%;
+    list-style: none;
+    /* padding-right: 10rem;
+    padding-left: 2rem; */
+   
+}
+.nav__link a {
+   
+    align-content: center;
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+    letter-spacing: 2%;
+}
+
+
+
+address {
+    width: 30%;
+   
+}
+.nav__link a:hover{
+    color: var(--pressed-state);
+}
+.email:hover {
+color: var(--pressed-state);
+}
+
+address .email, .telnumber {
+    margin: 10px;
+    text-decoration: none;
+}
+#logo {
+    /* padding-left: 10%; */
+    width: 15%;
+    text-align: right;
+    margin: 10px;
+    font-weight: bold;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+#logo .web {
+    color:#4D5AE5;
+}
+#footer .web {
+    color: #4D5AE5;
+}
+#logo_footer {
+    color: var(--white-background);
+    font-weight: bold;
+    size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+#hero {
+    background-color: var(--hero-background);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1 {
+    width: 492px;
+    text-align: center;
+    color: var(--white-background);
+}
+.order-button {
+    padding: 16px 32px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 24px;
+    letter-spacing: 4%;
+    border-style: none;
+    background-color: #4D5AE5;
+    
+}
+.order-button:hover {
+    background-color: #404BBF;
+    cursor: pointer;
+}
+#feature_section ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    list-style: none;
+    padding: 30px 10%;
+    margin: 0;
+}
+#feature_section ul li h3 {
+  margin: 1px 0;
+}
+#service_section ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#ourteam_section li {
+    height: 380px;
+    
+}
+#ourteam_section .team {
+background-color: var(--white-background);
+padding: 0 0;
+height: 380px;
+margin-inline: 12px;
+cursor: pointer;
+
+}
+#service_section h2 {
+    text-align: center;
+}
+#ourteam_section {
+    background-color: var(--light);
+    text-align: center;
+}
+#ourteam_section h2 {
+    padding-top: 5rem;
+}
+#ourteam_section ul {
+    padding-bottom: 5rem;
+}
+#footer p {
+        width: 264px;
+        text-align: left;
+        color: var(--white-background);
+        font-size: 16px;
+        letter-spacing: 4%;
+        font-weight: lighter;
+        line-height: 24px;
+        margin-bottom: 0;
+}
+#footer {
+    background-color: #2E2F42;
+    padding: 7.5% 10%;
+    display: flex;
+    
+}
+
+#footer h3 {
+    margin: 0;
+    color: var(--white-background);
+}
+
+#container_social{
+
+    padding-left: 3rem;
+   
+}
+#container_social ul,li {
+padding-left: 0;
+
+}
+
+
+
+
+
+
+/* FOR PORTFOLIO TAB PREVIEW*/
+
+#filter {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+        
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+
+.filter_btn {
+    margin: 1rem;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 24px;
+    letter-spacing: 4%;
+    border-style: none;
+    background-color: var(--light);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   
+}
+.filter_btn:hover {
+background-color: var(--pressed-state);
+}
+
+#preview {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+#preview li {
+    padding: 0;
+    margin-inline: 2rem;
+    background-color: var(--white-background);
+    padding: 1 1;
+    height: 380px;
+    background-color: var(--light);
+    cursor: pointer;
+}
+#preview p,h3{
+    margin-top: 10px;
+    margin-left: 2rem;
+    
+}
+
+#container_social li:hover {
+    /* //HINDI KOPO MA CHANGE UNG COLOR NG IMAGE PAG HOVER. NEED KOPO BA I IMPORT UNG MAY COLOR NA LOGO NG SOCIAL? */
+}
