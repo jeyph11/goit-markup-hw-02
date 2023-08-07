@@ -24,7 +24,6 @@ body {
     font-style: normal;
 }
 
-/* START */
 .header {
     height: 72px;
     padding: 0 10%;
@@ -98,8 +97,6 @@ body {
     font-weight: 800;
     line-height: 1.125rem;
     letter-spacing: 0.54px;
-
-
 }
 
 .logo::before {
@@ -299,7 +296,6 @@ body {
 }
 
 /* ================ PORFOLIO TAB CSS ================ */
-/* ================ PORFOLIO TAB CSS ================*/
 
 .filter-button {
     display: flex;
