@@ -83,6 +83,7 @@ body {
 .contact-list a {
     margin-left: 40px;
     text-decoration: none;
+    font-style: normal;
     color: var(--slate, #434455);
 }
 
